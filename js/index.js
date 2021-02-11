@@ -23,3 +23,9 @@ const navSlide = () => {
 }
 navSlide();
 // Hamburger Animation End//
+
+$('#overview').scrollspy();​
+
+$('#research').scrollspy();​
+
+$('#definition').scrollspy();​
