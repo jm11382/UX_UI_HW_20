@@ -135,10 +135,11 @@ header {
 /*Body Start*/
 .jumbotron {
     display: flex;
-    margin-bottom: 0;
+    margin: 0;
     background: url('../images/wish1.png') no-repeat center;
     background-size: cover;
-    height: 50%;
+    height: 25vh;
+    padding: 0;
 }
 .jumbotron-fluid{
     display: flex;
@@ -158,7 +159,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 84px;
+    height: 6rem;
     margin: 0;
 }
 
@@ -186,17 +187,21 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
     padding: 24px;
 }
+.overviewMargin{
+    margin-top: 6rem;
+}
+
 #research{
     display: flex;
     background-color: #0057B8;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
     padding: 24px;
 }
@@ -206,7 +211,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
     padding: 24px;
 }
@@ -238,6 +243,14 @@ header {
 .active{
     font-weight: bold;
     color: #01164B;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+    background-color: white;
 }
 
 /*Body End*/

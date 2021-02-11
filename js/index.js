@@ -24,8 +24,22 @@ const navSlide = () => {
 navSlide();
 // Hamburger Animation End//
 
-$('#overview').scrollspy();​
+var height = $('#jumboScroll').height();
 
-$('#research').scrollspy();​
+$(window).scroll(function () {
+    if($(this).scrollTop() > height){
+        $('.caseStudyNav').addClass('fixed');
+    }else{
+        $('.caseStudyNav').removeClass('fixed')
+    }
+});
 
-$('#definition').scrollspy();​
+var height = $('#jumboScroll').height();
+
+$(window).scroll(function () {
+    if($(this).scrollTop() > height){
+        $('#overview').addClass('overviewMargin');
+    }else{
+        $('#overview').removeClass('overviewMargin')
+    }
+});
