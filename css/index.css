@@ -197,7 +197,7 @@ header {
 
 #research{
     display: flex;
-    background-color: #0057B8;
+    background-color: #DCF0FB;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -208,6 +208,39 @@ header {
 #definition{
     display: flex;
     background-color: #0057B8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+}
+
+#prototyping{
+    display: flex;
+    background-color: #DCF0FB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+}
+
+#testing{
+    display: flex;
+    background-color: #0057B8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+}
+
+#nextSteps{
+    display: flex;
+    background-color: #DCF0FB;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -227,6 +260,57 @@ header {
     padding-top: 56px;
     padding-bottom: 32px;
 }
+
+.sectionTitle2{
+    display: flex;
+    justify-content: center;
+    color: #0057B8;
+    font-size: 56px;
+    line-height: 0;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-top: 56px;
+    padding-bottom: 32px;
+}
+
+.sectionTitle3{
+    display: flex;
+    justify-content: center;
+    color: #0057B8;
+    font-size: 48px;
+    line-height: 0;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-top: 56px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.sectionTitle4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    line-height: 0;
+    font-weight: bold;
+    letter-spacing: 0;
+    padding-top: 56px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.sectionTitle5{
+    display: flex;
+    color: #0057B8;
+    font-size: 36px;
+    line-height: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
 .bodyText{
     display: flex;
     justify-content: center;
@@ -240,9 +324,37 @@ header {
     width: 50%;
 }
 
+.bodyText2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0057B8;
+    font-size: 20px;
+    letter-spacing: auto;
+    line-height: auto;
+    font-weight: 100;
+    padding: 16px;
+    width: 50%;
+}
+
+.bodyText3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: auto;
+    line-height: auto;
+    font-weight: 100;
+    padding: 16px;
+    width: 100%;
+}
+
 .active{
     font-weight: bold;
     color: #01164B;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .fixed{
@@ -253,6 +365,64 @@ header {
     background-color: white;
 }
 
+.imageStyle1{
+    width: auto;
+    height: 100%;
+    padding: 16px;
+}
+
+.imageStyle2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+.imageStyle3{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    padding: 16px;
+}
+
+.horizontalDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    Height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontalDiv2{
+    display: flex;
+    width: 75%;
+    Height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#largeDiv{
+    height: 540px;
+}
+
+#firstContainer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.spacer{
+    display: flex;
+    height: 36px;
+}
+
+#figma{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 48px;
+}
 /*Body End*/
 
 
